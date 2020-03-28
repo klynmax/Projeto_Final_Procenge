@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="margin-bottom: 20px;" >
+    <a class="navbar-brand" href="#">Sistema de Vendas</a>  
+</nav>
+
+    <div class="container">
+
+        <div class="row" >
+
+            <div class="col-3" >
+                <div class="card">
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" routerLink="/"><mat-icon>perm_identity</mat-icon>&nbsp;Clientes</a>
+                            
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" routerLink="/produto"><mat-icon>shopping_basket</mat-icon>&nbsp;Produtos</a>
+                            
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" routerLink="/vendas"><mat-icon>shopping_cart</mat-icon>&nbsp;Vendas</a>
+                            
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-9">
+                <ng-content></ng-content>
+            </div>
+ 
+        </div>
+
+    </div>
